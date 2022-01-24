@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ja LProf</string>
+    <string name="signup">sign up</string>
+    <string name="Already_have_account"><u>Already have an account ? sign in</u></string>
+    <string name="signin">Sign in</string>
+    <string name="signin_u"><u>Sign in</u></string>
+    <string name="Send_verification_code">Send verification code</string>
+    <string name="resend_code"><u>re-send the code</u></string>
+    <string name="check_mail">please check mail</string>
+    <string name="forgotpassword"><u>forgot password ?</u></string>
+    <string name="notmember"><u>not a member yet? sign up</u></string>
+    <string name="cat_gories">Catégories</string>
+    <string name="boisson">BOISSONS</string>
+    <string name="breakfast">PETIT DEJEUNER</string>
+    <string name="lunch">DEJEUNER</string>
+    <string name="product_categorie">categorie of product</string>
+    <string name="viennoiserie">viennoiserie</string>
+
+
+</resources>

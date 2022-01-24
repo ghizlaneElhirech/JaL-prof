@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_one_signup"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/japrof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Ja L'prof"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/japrof"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/graywithborder"
+        android:hint="prenom.nom@uit.ac.ma"
+        android:padding="20dp"
+        android:shadowColor="@color/gray"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/graywithborder"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/repeatpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/graywithborder"
+        android:hint="confirm your password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/gray" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repeatpassword"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/graywithborder"
+        android:backgroundTint="@color/gray"
+        android:clickable="true"
+        android:onClick="SignUP"
+        android:padding="20dp"
+        android:text="@string/signup"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/gray" />
+
+    <TextView
+        android:id="@+id/alreadyhaveaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center|bottom"
+        android:onClick="SignUP"
+        android:text="@string/Already_have_account"
+        android:textColor="@color/gray" />
+
+
+</RelativeLayout>
